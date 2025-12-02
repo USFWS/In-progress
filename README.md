@@ -1,6 +1,6 @@
 # AI-for-WHCR
 
-### This repository contains R and Python code for conducting deep learning, computer vision analyses. Specifically, the code is in the development stage to detect and classify Whooping Crane from very-high resolution imagery. Please contact Brad Pickens, bradley_pickens@fws.gov, for more information or for questions.
+### This repository contains R and Python code for conducting deep learning, computer vision analyses.  Please contact Brad Pickens, bradley_pickens@fws.gov, for more information or for questions.
 
 ### The realm covered here includes imagery management and preprocessing, annotation conversions, deep learning model training/testing, deep learning inference, post-processing, and statistical analyses. Project-specific code is tailored to ongoing USFWS projects. 
 
