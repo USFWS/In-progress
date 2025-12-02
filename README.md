@@ -1,4 +1,4 @@
-# AI-for-WHCR
+# AI-for-FWS
 
 ### This repository contains R and Python code for conducting deep learning, computer vision analyses.  Please contact Brad Pickens, bradley_pickens@fws.gov, for more information or for questions.
 
