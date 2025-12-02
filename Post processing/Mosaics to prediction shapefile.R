@@ -5,7 +5,7 @@ library(sfheaders)
 library (lubridate)
 
 # Input: Set working dir for ortho/mosaics
-setwd(file.path('C:', 'users', 'Aware', 'desktop', 'SACR_temp', 'mosaics_SACR_2025'))
+setwd(file.path('C:', 'users', 'Aware', 'desktop', 'project_temp', 'mosaics_project_2025'))
 
 # Inputs: pred1 = table from detection inference depicting predictions: 
 # xmin, ymin, w, h
@@ -14,7 +14,7 @@ setwd(file.path('C:', 'users', 'Aware', 'desktop', 'SACR_temp', 'mosaics_SACR_20
 # crs1 = spatial projection-- in utm
 # export_spatial = shapefile of predictions to export
 
-pred1 <- read.table ("C:/Users/aware/desktop/SACR_temp/step1_yolo_survey_2025_west_part2_125k.csv", 
+pred1 <- read.table ("C:/Users/aware/desktop/project_temp/step1_yolo_survey_2025_west_part2_125k.csv", 
   sep = ",", header=TRUE, fill=TRUE)
 
 output_predictions <- "temp1.csv"
@@ -83,4 +83,5 @@ new_sf %>%
   st_coordinates()
 
 st_write(new_sf, export_spatial, driver = "ESRI Shapefile")  
+
 
