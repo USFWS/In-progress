@@ -3,7 +3,7 @@ library(dplyr)
 library(stringr)
 library(tidyverse)
 
-setwd(file.path('D:', 'WHCR_2025', '12_WHCR_detection', 'g_inference',
+setwd(file.path('D:', 'project_2025', '12_project_detection', 'g_inference',
                 'crops_131500', 'classify_test_data'))
 
 ###### Get parent image names and coordinates
@@ -37,3 +37,4 @@ data1$c6 <- NULL
 View(data1)
 
 write.table(data1, "classify_birds1.csv", sep =",", row.names=FALSE)
+
