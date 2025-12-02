@@ -8,8 +8,6 @@
 # /directory1/val/images and /directory1/val/labels ; These file paths will be specified in your opt.yaml file; please see template
 # in this repository
 
-# Available YOLOv8 models include yolov8n.pt, yolov8s.pt, yolov8m.pt, yolov8l.pt, yolov8x.pt
-
 # Once the Python requirements are met, you can specify vairables such as batch size, iou, epochs, imgsz (image size),
 # patience, device, max_det (maximum detections), project and name where to save the results
 
@@ -35,4 +33,5 @@ results = model.train(data="D:/project_2025/12_project_detection/7_opt.yaml",
 
 # Load model for inference, then
 # model.export(format = "onnx")
+
 
