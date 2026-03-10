@@ -3,6 +3,8 @@ import pandas
 from os.path import basename
 import shutil
 
+## first attempt
+
 ## New inputs: drive_path = root directory, flight_name = flight folder, model_path = model to apply
 root_path = "D:/species_2025/"
 flight_name = "3_crops_all_inference"
